@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Портфолио</title>
     <link
       href="https://fonts.google.com/share?selection.family=Raleway:wght@700%7CRoboto:wght@400;500;700;900"
       rel="stylesheet"
@@ -15,7 +15,9 @@
     <!-- Header -->
     <header>
       <nav class="nav">
-        <a class="nav-logo" href="./index.html">WebStudio</a>
+        <a class="nav-logo" href="./index.html">
+          <span class="web">Web</span>Studio</a
+        >
         <ul class="site-nav">
           <li>
             <a href="./index.html" class="link">Студия</a>
@@ -40,17 +42,27 @@
       </ul>
     </header>
     <main>
-      <!-- Filter bottons -->
-      <section class="buttons">
+      <!-- Portfolio -->
+      <section class="Portfolio">
         <h1 hidden>Filter-bottons</h1>
-        <button class="button primary" type="button">Все</button>
-        <button class="button secondary" type="button">Веб-сайты</button>
-        <button class="button secondary" type="button">Дизайн</button>
-        <button class="button secondary" type="button">Маркетинг</button>
-        <button class="button secondary" type="button">Приложения</button>
-      </section>
-      <!-- All filters -->
-      <section class="filter">
+        <ul class="buttons-list">
+          <li>
+            <button class="button current" type="button">Все</button>
+          </li>
+          <li>
+            <button class="button" type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button class="button" type="button">Дизайн</button>
+          </li>
+          <li>
+            <button class="button" type="button">Маркетинг</button>
+          </li>
+          <li>
+            <button class="button" type="button">Приложения</button>
+          </li>
+        </ul>
+        <!-- All filters -->
         <h2 class="filter-title" hidden>All-filters</h2>
         <ul class="filter-list">
           <li class="filter-item">
@@ -165,21 +177,19 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a href="" class="footer-logo">WebStudio</a>
+      <a href="" class="footer-logo"> <span class="web">Web</span>Studio</a>
       <address class="address">
         <ul class="address-list">
-          <li class="address-item">
-            <a class="address-link-white" href=""
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
+          <li>
+            <a href="" class="address-link">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
-          <li class="address-item">
-            <a class="address-link-transparent" href="mailto:info@devstudio.com"
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="address-item">
-            <a class="address-link-transparent" href="tel:+380961111111"
+          <li>
+            <a href="tel:+380961111111" class="address-link"
               >+38 096 111 11 11</a
             >
           </li>

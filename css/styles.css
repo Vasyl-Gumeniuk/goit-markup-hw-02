@@ -22,6 +22,11 @@ button {
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -33,18 +38,34 @@ button {
 /* Navigation contact */
 .nav-contact .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .nav-contact .link:hover,
 .nav-contact .link:focus {
   color: var(--accent-color);
 }
 .nav-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000000;
+  text-decoration: none;
+}
+.web {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color);
   text-decoration: none;
 }
 /* Hero section */
@@ -109,6 +130,7 @@ button {
 }
 /* Footer */
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -119,17 +141,7 @@ button {
 .footer {
   background-color: var(--background-footer);
 }
-
-.address-link-white {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
-.address-link-transparent {
+.address-list .address-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -138,6 +150,11 @@ button {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.address-list .address-link:hover,
+.address-list .address-link:focus {
+  color: var(--secondary-text-color);
+}
+
 /* Portfolio */
 .filter-subtitle {
   font-weight: bold;
@@ -156,14 +173,15 @@ button {
 .button {
   color: var(--title-text-color);
   background-color: var(--background-ourteam);
+  border-color: transparent;
 }
-.button.primary {
+.button:hover,
+.button:focus {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   border-color: transparent;
 }
-.button.secondary {
-  color: var(--title-text-color);
-  background-color: var(--background-ourteam);
-  border-color: transparent;
+.buttons-list .button.current {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
 }
