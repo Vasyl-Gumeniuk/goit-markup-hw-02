@@ -339,6 +339,7 @@ header {
 
 /* #endregion Portfolio */
 /* #region All-filters */
+
 .filter-list {
   display: flex;
   flex-wrap: wrap;
