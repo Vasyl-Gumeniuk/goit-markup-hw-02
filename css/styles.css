@@ -120,7 +120,7 @@ address {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--primary-brand);
+  background-color: var(--pressed-state);
 }
 /* #endregion Hero*/
 /* #region Benefits */
@@ -194,10 +194,6 @@ address {
   background-color: var(--pressed-state);
 }
 
-.buttons-list .filter-btn.current {
-  color: var(--white);
-  background-color: var(--pressed-state);
-}
 /* #endregion Portfolio */
 /* #region All-filters */
 .filter-caption {
@@ -207,7 +203,4 @@ address {
   color: var(--dark);
 }
 
-.filter-item {
-  border: 1px solid var(--accent);
-}
 /* #endregion All-filters */
